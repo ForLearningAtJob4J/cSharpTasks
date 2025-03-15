@@ -45,7 +45,7 @@ class Program
         }));
 
         await Task.WhenAll(tasks);
-        Console.WriteLine($"Все файлы содержит {totalCount} пробелов.");
+        Console.WriteLine($"Все файлы содержат {totalCount} пробелов.");
         sw.Stop();
         Console.WriteLine($"Времени понадобилось: " + sw.Elapsed);
     }
