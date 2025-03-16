@@ -6,7 +6,7 @@ class Program
     {
         string folderPath;
 
-        if (args.Length != 1)
+        if (args.Length == 0)
         {
             folderPath = "TestFiles";
         }
